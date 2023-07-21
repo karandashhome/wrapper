@@ -12,18 +12,14 @@ This project is a simple wrapper for working with the chatGPT model via API, whi
 
 1. Download the project from this repository:
 
+`git clone https://github.com/karandashhome/wrapper.git`
 
-git clone https://github.com/karandashhome/wrapper.git
+2. Open the command line or terminal and go to the project folder
 
-
-2.Open the command line or terminal and go to the project folder
-
-3.Make sure you have the Python version specified in the project requirements installed.
+3. Make sure you have the Python version specified in the project requirements installed.
 
 4. Set all required dependencies specified in the requirements.txt file by running the command in the command line:
 
+`pip install -r requirements.txt`
 
-pip install -r requirements.txt
-
-
-5.Run data_processing.py and database_setup.py. These files contain the code that is used in main.py, so they must be run before it.
+5. Run data_processing.py and database_setup.py. These files contain the code that is used in main.py, so they must be run before it.
