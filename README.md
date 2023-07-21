@@ -13,7 +13,7 @@ This project is a simple wrapper for working with the chatGPT model via API, whi
 1. Download the project from this repository:
 
 
-git clone https://github.com/username/project.git
+git clone [https://github.com/username/project.git](https://github.com/karandashhome/wrapper.git)
 
 
 2.Open the command line or terminal and go to the project folder
