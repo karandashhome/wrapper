@@ -2,13 +2,13 @@ import openai
 import requests
 from log import logoutput
 
-openai.api_key = "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"
+openai.api_key = "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 model_engine = "text-davinci-003"
 context = ""
 
 while True:
-    user_input = input("Введите ваш вопрос: ")
+    user_input = input("Введите ваш вопросEnter your question here: ")
     prompt = f"Q: {context} {user_input}\nA:"
     logoutput(user_input)
     completion = openai.Completion.create(
@@ -41,17 +41,11 @@ while True:
 
     print(parse_string(answer))
 
-    # if user_input.lower() == "очистить":
-    #     context = ""
-    #     print(context)
-    # else:
-    #     print(context)
-    #     context += answer
 
-    continue_prompt = input("Нажмите н для выхода и любую клавишу, чтобы продолжить ")
-    if continue_prompt.lower() == "н":
+    continue_prompt = input("Enter  "clear" to remove the context of the conversation. Press "n" to exit the dialog, Press any other key to continue. ")
+    if continue_prompt.lower() == "n":
         break
-    elif continue_prompt.lower() == "очистить":
+    elif continue_prompt.lower() == "clear":
         context = ""
         print(context)
     else:
