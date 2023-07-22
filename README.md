@@ -32,8 +32,10 @@ This project is a simple wrapper for working with the chatGPT model via API, whi
 
 These files contain the code that is used in main.py, so they must be run before it.
 
+10. Run main.py
+
+  `python main.py`
+  
 #  Remember 
 Remember to replace the 'openai.api_key' in the main.py file with your api_key token value. The token value is given when you register on OpenAI. If you haven't registered yet, try to by an account, it's almost free.
-10. main.py
 
-  `main.py`
