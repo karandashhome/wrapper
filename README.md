@@ -12,7 +12,7 @@ This project is a simple wrapper for working with the chatGPT model via API, whi
 
 1. Download the project from this repository:
 
-`git clone https://github.com/karandashhome/wrapper.git`
+  `git clone https://github.com/karandashhome/wrapper.git`
 
 2. Open the command line or terminal and go to the project folder
 
@@ -20,9 +20,17 @@ This project is a simple wrapper for working with the chatGPT model via API, whi
 
 4. Set all required dependencies specified in the requirements.txt file by running the command in the command line:
 
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 
-5. Run `data_processing.py` and `database_setup.py.` These files contain the code that is used in main.py, so they must be run before it.
+5. Run data_processing.py
+
+  `python data_processing.py`
+
+9. Run database_setup.py
+
+  `python database_setup.py`
+
+These files contain the code that is used in main.py, so they must be run before it.
 
 #  Remember 
 Remember to replace the 'openai.api_key' in the main.py file with your api_key token value. The token value is given when you register on OpenAI. If you haven't registered yet, try to by an account, it's almost free.
